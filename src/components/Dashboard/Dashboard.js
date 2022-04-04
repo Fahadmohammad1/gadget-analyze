@@ -1,13 +1,11 @@
 import React from "react";
 import {
-  Area,
-  AreaChart,
+  Bar,
+  BarChart,
   CartesianGrid,
   Legend,
   Line,
   LineChart,
-  ReferenceLine,
-  ResponsiveContainer,
   Tooltip,
   XAxis,
   YAxis,
@@ -53,31 +51,17 @@ const Dashboard = () => {
     },
   ];
   return (
-    <div>
-      <ResponsiveContainer width={700} height="80%">
-        <AreaChart
-          data={chartData}
-          margin={{ top: 20, right: 30, left: 0, bottom: 0 }}
-        >
-          <XAxis dataKey="name" />
-          <YAxis />
-          <CartesianGrid strokeDasharray="3 3" />
-          <Tooltip />
-          <ReferenceLine x="Page C" stroke="green" label="Min PAGE" />
-          <ReferenceLine
-            y={4000}
-            label="Max"
-            stroke="red"
-            strokeDasharray="3 3"
-          />
-          <Area
-            type="monotone"
-            dataKey="month"
-            stroke="#8884d8"
-            fill="#8884d8"
-          />
-        </AreaChart>
-      </ResponsiveContainer>
+    <div className="md:flex mt-7">
+      <BarChart className="mx-auto" width={530} height={250} data={chartData}>
+        <CartesianGrid strokeDasharray="3 3" />
+        <XAxis dataKey="month" />
+        <YAxis />
+        <Tooltip />
+        <Legend />
+        <Bar dataKey="investment" fill="#8884d8" />
+        <Bar dataKey="sell" fill="#ffbf00" />
+        <Bar dataKey="revenue" fill="#82ca9d" />
+      </BarChart>
       <div className="mx-auto">
         <LineChart
           width={530}
