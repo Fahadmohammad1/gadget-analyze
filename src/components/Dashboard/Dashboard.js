@@ -16,8 +16,8 @@ const Dashboard = () => {
     {
       month: "Mar",
       investment: 100000,
-      sell: 2041,
-      revenue: 20401,
+      sell: 16041,
+      revenue: 30401,
     },
     {
       month: "Apr",
@@ -28,8 +28,8 @@ const Dashboard = () => {
     {
       month: "May",
       investment: 500000,
-      sell: 10226,
-      revenue: 107010,
+      sell: 180226,
+      revenue: 207010,
     },
     {
       month: "Jun",
@@ -46,36 +46,39 @@ const Dashboard = () => {
     {
       month: "Aug",
       investment: 700000,
-      sell: 42170,
-      revenue: 261000,
+      sell: 262170,
+      revenue: 461000,
     },
   ];
   return (
-    <div>
-      <BarChart width={730} height={250} data={chartData}>
+    <div className="md:flex mt-7">
+      <BarChart className="mx-auto" width={530} height={250} data={chartData}>
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="month" />
         <YAxis />
         <Tooltip />
         <Legend />
         <Bar dataKey="investment" fill="#8884d8" />
+        <Bar dataKey="sell" fill="#ffbf00" />
         <Bar dataKey="revenue" fill="#82ca9d" />
       </BarChart>
-      <LineChart
-        width={730}
-        height={250}
-        data={chartData}
-        margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
-      >
-        <CartesianGrid strokeDasharray="3 3" />
-        <XAxis dataKey="month" />
-        <YAxis />
-        <Tooltip />
-        <Legend />
-        <Line type="monotone" dataKey="investment" stroke="#ff4000" />
-        <Line type="monotone" dataKey="sell" stroke="#82ca9d" />
-        <Line type="monotone" dataKey="revenue" stroke="	#0000ff" />
-      </LineChart>
+      <div className="mx-auto">
+        <LineChart
+          width={530}
+          height={250}
+          data={chartData}
+          margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
+        >
+          <CartesianGrid strokeDasharray="3 3" />
+          <XAxis dataKey="month" />
+          <YAxis />
+          <Tooltip />
+          <Legend />
+          <Line type="monotone" dataKey="investment" stroke="#ff4000" />
+          <Line type="monotone" dataKey="sell" stroke="#82ca9d" />
+          <Line type="monotone" dataKey="revenue" stroke="	#0000ff" />
+        </LineChart>
+      </div>
     </div>
   );
 };
