@@ -1,0 +1,159 @@
+{
+  "results": [
+    {
+      "id": 1,
+      "name": {
+        "title": "Mr",
+        "first": "Hugo",
+        "last": "Nyhuus"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/75.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/75.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/75.jpg"
+      },
+      "nat": "NO"
+    },
+    {
+      "id": 2,
+      "name": {
+        "title": "Mr",
+        "first": "Matthew",
+        "last": "Thrane"
+      },
+
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/41.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/41.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/41.jpg"
+      },
+      "nat": "NO"
+    },
+    {
+      "id": 3,
+      "name": {
+        "title": "Mr",
+        "first": "Koray",
+        "last": "Baykam"
+      },
+
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/4.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/4.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/4.jpg"
+      },
+      "nat": "TR"
+    },
+    {
+      "id": 4,
+      "name": {
+        "title": "Mrs",
+        "first": "Elena",
+        "last": "Muñoz"
+      },
+
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/17.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/17.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/17.jpg"
+      },
+      "nat": "ES"
+    },
+    {
+      "id": 5,
+      "name": {
+        "title": "Mr",
+        "first": "Omer",
+        "last": "Perez"
+      },
+
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/5.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/5.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/5.jpg"
+      },
+      "nat": "NL"
+    },
+    {
+      "id": 6,
+      "name": {
+        "title": "Ms",
+        "first": "Maja",
+        "last": "Pfister"
+      },
+
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/73.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/73.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/73.jpg"
+      },
+      "nat": "DE"
+    },
+    {
+      "id": 7,
+      "name": {
+        "title": "Mademoiselle",
+        "first": "Agnes",
+        "last": "Robin"
+      },
+
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/37.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/37.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/37.jpg"
+      },
+      "nat": "CH"
+    },
+    {
+      "id": 8,
+      "name": {
+        "title": "Madame",
+        "first": "Daisy",
+        "last": "Robert"
+      },
+
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/18.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/18.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/18.jpg"
+      },
+      "nat": "CH"
+    },
+    {
+      "id": 9,
+      "name": {
+        "title": "Ms",
+        "first": "Alyssia",
+        "last": "Marie"
+      },
+
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/9.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/9.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/9.jpg"
+      },
+      "nat": "FR"
+    },
+    {
+      "id": 10,
+      "name": {
+        "title": "Mr",
+        "first": "Brent",
+        "last": "Davidson"
+      },
+
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/57.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/57.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/57.jpg"
+      },
+      "nat": "IE"
+    }
+  ],
+  "info": {
+    "seed": "4a3ba7242a91afda",
+    "results": 10,
+    "page": 1,
+    "version": "1.3"
+  }
+}
