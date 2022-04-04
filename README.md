@@ -1,4 +1,4 @@
-Site Name : Pro-Nalyze
+# Site Name : Gadget Analyze
 
 live-site link: https://heartfelt-pudding-885f2e.netlify.app/
 
