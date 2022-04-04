@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import useReviews from "../../Hooks/useReviews";
-import image from ".//../../images/INLOGG733W_logitech_g733_wireless_headset_white.jpg";
+import image from ".//../../images/headset.jpg";
 
 const Home = () => {
   const [reveiws] = useReviews();
@@ -41,21 +41,23 @@ const Home = () => {
                   src={review.picture.large}
                   alt="Bonnie"
                 />
-                <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">
+                <h5 className="mb-1 text-xl font-bold text-gray-900 dark:text-white">
                   {review.name.title} {review.name.first}
                 </h5>
                 <span className="text-sm text-gray-500 dark:text-gray-400">
                   4.5 stars
                 </span>
                 <div>
-                  <p className="text-gray-900">{review.description}</p>
+                  <p className="text-gray-800 font-medium">
+                    {review.description}
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         ))}
       </div>
-      <div className="relative inline-flex items-center justify-center p-0.5 mb-7 mr-2 overflow-hidden text-sm font-medium text-pink-400 rounded-lg group bg-gradient-to-br from-emerald-200 to-emerald-500 group-hover:from-emerald-200 group-hover:to-emerald-200 hover:text-black dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
+      <div className="relative inline-flex items-center justify-center p-0.5 mb-7 mr-2 overflow-hidden text-sm font-medium text-[#c94ced] rounded-lg group bg-gradient-to-br from-emerald-200 to-emerald-500 group-hover:from-emerald-200 group-hover:to-emerald-200 hover:text-black dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
         <NavLink
           className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 font-bold"
           to="/allreviews"
