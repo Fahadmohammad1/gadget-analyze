@@ -1,11 +1,12 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import useReviews from "../../Hooks/useReviews";
 
 const Home = () => {
   const [reveiws] = useReviews();
   return (
     <div>
-      <div className="md:flex justify-center items-center mt-8 ">
+      <div className="md:flex justify-center items-center mt-8">
         <div className="flex flex-col justify-center">
           <h1 className="text-7xl font-extrabold font-sans">
             Your next phone
@@ -17,13 +18,13 @@ const Home = () => {
             tenetur molestias quo consequuntur dolore laborum nihil, esse itaque
             odio fuga!
           </p>
-          <button className="bg-teal-200 p-3 rounded-xl font-bold mx-auto text-[#c94ced] ">
-            Live Demo
+          <button className="bg-teal-200 p-3 mb-5 rounded-xl font-bold mx-auto text-[#c94ced] ">
+            <span>Live Demo</span>
           </button>
         </div>
         <div className="flex items-center">
           <img
-            src="https://s3-ap-southeast-2.amazonaws.com/wc-prod-pim/JPEG_1000x1000/INLOGG733W_logitech_g733_wireless_headset_white.jpg"
+            src="https://www.att.com/idpassets/sales/uf/brand/apple/spring-iconic-2022/animated-multitile/958854_iphone13-retina.png"
             alt="headset"
           />
         </div>
@@ -54,6 +55,14 @@ const Home = () => {
             </div>
           </div>
         ))}
+      </div>
+      <div className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
+        <NavLink
+          className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 font-bold"
+          to="/allreviews"
+        >
+          See All Reviews
+        </NavLink>
       </div>
     </div>
   );
