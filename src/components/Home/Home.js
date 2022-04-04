@@ -1,6 +1,8 @@
 import React from "react";
+import useReviews from "../../Hooks/useReviews";
 
 const Home = () => {
+  const [reveiws] = useReviews();
   return (
     <div className="md:flex justify-center items-center mt-8 ">
       <div className="flex flex-col justify-center">

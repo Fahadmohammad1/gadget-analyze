@@ -1,14 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
+import useReviews from "../../Hooks/useReviews";
 import Review from "../Review/Review";
 
 const Reviews = () => {
-  const [reviews, setReviews] = useState([]);
-
-  useEffect(() => {
-    fetch("Reviews.json")
-      .then((res) => res.json())
-      .then((data) => setReviews(data.results));
-  }, []);
+  const [reviews] = useReviews();
   return (
     <div className="md:grid grid-cols-3 mt-5 gap-y-5">
       {reviews.map((review) => (
