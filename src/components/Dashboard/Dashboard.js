@@ -51,7 +51,7 @@ const Dashboard = () => {
     },
   ];
   return (
-    <div>
+    <div className="mb-24">
       <h1 className="text-4xl mt-6 font-serif font-semibold">
         Our Selling and Revenue
       </h1>
@@ -60,7 +60,7 @@ const Dashboard = () => {
           <BarChart
             className="mx-auto"
             width={530}
-            height={250}
+            height={350}
             data={chartData}
           >
             <CartesianGrid strokeDasharray="3 3" />
@@ -76,7 +76,7 @@ const Dashboard = () => {
         <div className="mx-auto">
           <LineChart
             width={530}
-            height={250}
+            height={350}
             data={chartData}
             margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
           >
