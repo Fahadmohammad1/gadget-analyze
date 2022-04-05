@@ -18,11 +18,11 @@ const Blogs = () => {
       </div>
       <div className="mt-7 border-4 p-5 rounded-lg border-green-300">
         <h1 className="text-3xl font-bold text-[#4d3b69]">
-          What is Symantic Tag?
+          What is Symantic tag?
         </h1>
         <p className="font-medium pt-3">
           Symantic tag is clearly describes what we are doing inside that tag.
-          Like in <strong>Article</strong> defines article,{" "}
+          Like in <strong>Article</strong> defines article,
           <strong>Header</strong> defines heading section in a webpage. In
           article tag we definitly writes our blog and article. Symantic tags
           are very helpful for machine and developer both.
@@ -32,7 +32,7 @@ const Blogs = () => {
       </div>
       <div className="mt-7 border-4 p-5 rounded-lg border-green-300">
         <h1 className="text-3xl font-bold text-[#4d3b69]">
-          What do you know about "inline" , "block" , "inline-block"?
+          What do you know about "inline","block","inline-block"?
         </h1>
         <p className="font-medium pt-3">
           <strong>block</strong> elements takes the whole available space. It

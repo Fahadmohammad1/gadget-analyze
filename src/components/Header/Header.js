@@ -17,7 +17,7 @@ const Header = () => {
                   className=" underline underline-offset-8  font-bold md:text-lg block py-2 pr-4 pl-3  md:bg-transparent  md:p-0 dark:text-white"
                   aria-current="page"
                   style={({ isActive }) =>
-                    isActive ? { color: "red" } : { color: "black" }
+                    isActive ? { color: "#c94ced" } : { color: "black" }
                   }
                 >
                   HOME
@@ -28,7 +28,7 @@ const Header = () => {
                   to="reviews"
                   className=" underline underline-offset-8  font-bold md:text-lg block py-2 pr-4 pl-3 border-b md:hover:bg-transparent md:border-0  md:p-0 md:dark:hover:bg-transparent "
                   style={({ isActive }) =>
-                    isActive ? { color: "red" } : { color: "black" }
+                    isActive ? { color: "#c94ced" } : { color: "black" }
                   }
                 >
                   REVIEWS
@@ -39,7 +39,7 @@ const Header = () => {
                   to="/dashboard"
                   className="  underline underline-offset-8 font-bold md:text-lg block py-2 pr-4 pl-3 border-b  md:hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent "
                   style={({ isActive }) =>
-                    isActive ? { color: "red" } : { color: "black" }
+                    isActive ? { color: "#c94ced" } : { color: "black" }
                   }
                 >
                   DASHBOARD
@@ -50,7 +50,7 @@ const Header = () => {
                   to="/blogs"
                   className=" underline underline-offset-8  font-bold md:text-lg block py-2 pr-4 pl-3 md:hover:bg-transparent md:border-0  md:p-0 md:dark:hover:bg-transparent "
                   style={({ isActive }) =>
-                    isActive ? { color: "red" } : { color: "black" }
+                    isActive ? { color: "#c94ced" } : { color: "black" }
                   }
                 >
                   BLOGS
@@ -61,7 +61,7 @@ const Header = () => {
                   to="/about"
                   className=" underline underline-offset-8  font-bold md:text-lg block py-2 pr-4 pl-3  md:hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent "
                   style={({ isActive }) =>
-                    isActive ? { color: "red" } : { color: "black" }
+                    isActive ? { color: "#c94ced" } : { color: "black" }
                   }
                 >
                   ABOUT

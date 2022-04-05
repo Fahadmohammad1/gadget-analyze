@@ -8,7 +8,7 @@ const Review = ({ review }) => {
   return (
     <div>
       <div key={review.id}>
-        <div className=" mx-auto max-w-sm bg-emerald-50 rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+        <div className=" mx-auto max-w-sm bg-emerald-50 rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 border-b-2 border-b-teal-400">
           <div className="flex flex-col items-center pb-10 mt-5">
             <img
               className="mb-3 w-24 h-24 rounded-full shadow-lg"

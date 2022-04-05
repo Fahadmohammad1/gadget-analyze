@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div>
       <div className="md:flex justify-center items-center mt-8 px-2 mx-auto">
-        <div className="flex flex-col justify-center md:w-1/2 text-left md:pl-5">
+        <div className="flex flex-col justify-center md:w-1/2 text-left md:pl-7">
           <h1 className="text-7xl font-extrabold font-sans">
             Get Your Favorite
             <br />
@@ -23,9 +23,11 @@ const Home = () => {
             dedicated best quality mic. Ultra boost sound quality for gamers.
             You can check our <span className="">customer reveiw</span> below.
           </p>
-          <button className="bg-emerald-200 p-3 mb-5 rounded-xl font-bold mx-auto text-[#c94ced] ">
-            <span>Live Demo</span>
-          </button>
+          <div className="cursor-pointer inline-flex w-1/4  items-center justify-center mb-5 mr-2 overflow-hidden text-lg font-medium text-[#c94ced] rounded-lg group bg-gradient-to-br from-emerald-200 to-emerald-400 group-hover:from-emerald-200 group-hover:to-emerald-200 hover:text-black dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 border-2 border-emerald-300  ">
+            <span className="relative w-full text-center px-2 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 font-bold">
+              Explore
+            </span>
+          </div>
         </div>
         <div className="flex items-center md:w-1/2">
           <img src={image} alt="headset" />
@@ -37,7 +39,7 @@ const Home = () => {
       <div className="md:grid grid-cols-3 mt-8">
         {reveiws.slice(0, 3).map((review) => (
           <div key={review.id}>
-            <div className="mb-5 mx-auto max-w-sm bg-emerald-50 rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+            <div className="mb-5 mx-auto max-w-sm bg-emerald-50 rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 border-b-2 border-b-teal-400">
               <div className="flex flex-col items-center pb-10 mt-5">
                 <img
                   className="mb-3 w-24 h-24 rounded-full shadow-lg"
